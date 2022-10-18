@@ -1,0 +1,32 @@
+extends base.pug
+block style 
+    style 
+        //- include 
+        include ../homepage.css
+block content 
+    div.maincard 
+        div.card
+            h1 Available Books 
+            img(src="https://i.pinimg.com/736x/31/bd/c6/31bdc6ba6c0e894893b3596607380b5d.jpg", alt="no image")
+        div.card
+            h1 Add New Books
+            img(src="https://cdn.iconscout.com/icon/premium/png-256-thumb/add-book-19-1110422.png", alt="no image")
+        div.card
+            h1 Delete Books
+            img(src="https://www.iconexperience.com/_img/v_collection_png/256x256/shadow/book_blue_delete.png", alt="")
+        div.card
+            h1 Issue Books
+            img(src="https://cdn-icons-png.flaticon.com/512/3731/3731636.png", alt="")
+        div.card
+            h1 Return Books
+            img(src="https://i.pinimg.com/favicons/32bf12458dcc37a037dcafa6a1859b10a9837ad390904509324b77ed.ico?af8b87eb9eef8c90ea8c6e1294152351", alt="")
+    div.btncls 
+        a(href="/view")#button(type="button").btn View
+        a(href="/add")#button(type="button").btn Add
+        a(href="/delete")#button(type="button").btn Delete
+        a(href="/issue")#button(type="button").btn Issue
+        a(href="/return")#button(type="button").btn Return 
+
+
+
+

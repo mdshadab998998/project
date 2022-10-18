@@ -1,0 +1,9 @@
+extends base.pug
+block content 
+    h1 view book
+    ul
+        each test in message
+            li=test.name
+    ul 
+        each test in message
+            li=test.address

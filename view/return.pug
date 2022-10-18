@@ -1,0 +1,9 @@
+extends base.pug
+block content 
+    h1 return book
+    //- input(type="text" placeholder="enter the name of the book you want to issue",name="bookname",id="bookname")
+    //- input(type="text" placeholder="enter the name of the author you want to issue",name="authorname",id="authorname")
+    form(action="/return" method="post") 
+        input(type="text" placeholder="ennter the name of student",name="name",id="name")
+        input(type="text" placeholder="enter the date in DD/MM/YYYY form",name="date",id="date")
+        button submit

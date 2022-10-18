@@ -1,0 +1,7 @@
+extends base.pug
+block content 
+    h1 delete book
+    form(action="/delete",method="post") 
+        input(type="text",placeholder="book name",name="bookname",id="bookname")
+        //- input(type="text",placeholder="author name",name="authorname",id="authorname")
+        button submit

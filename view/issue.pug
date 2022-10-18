@@ -1,0 +1,26 @@
+extends base.pug
+block content 
+    h1 isuue book
+    form(action="/issue",method="post")
+        input(type="text" placeholder="enter the name of the book you want to issue",name="bookname",id="bookname")
+        input(type="text" placeholder="enter the name of the author you want to issue",name="authorname",id="authorname")
+        input(type="text" placeholder="ennter the name of student",name="name",id="name")
+        input(type="text" placeholder="enter the date in DD/MM/YYYY form",name="date",id="date")
+        button submit
+    h1 issued Book List are 
+    //- ul
+    //-     each test in message
+    //-         li=test.Bookname
+    //- ul 
+    //-     each test in message
+    //-         li=test.authorname
+    //- ul
+    //-     each test in message
+    //-         li=test.studentname
+    //- ul 
+    //-     each test in message
+    //-         li=test.Dateofissue
+
+
+
+

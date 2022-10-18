@@ -1,0 +1,17 @@
+h1{
+    font-size: 40px;
+    color: red;
+    text-align: center;
+}
+img{
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.image{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

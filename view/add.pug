@@ -1,0 +1,8 @@
+extends base.pug
+block content 
+    h1 add book
+    form(action="/add",method="post") 
+        input(type="text",placeholder="book name",name="bookname",id="bookname")
+        input(type="text",placeholder="author name",name="authorname",id="authorname")
+        button submit
+

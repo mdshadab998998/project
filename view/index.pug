@@ -1,0 +1,22 @@
+
+doctype html
+html(lang="en")
+    head
+        title Document
+        block style
+            style
+                include ../style.css
+
+    body 
+        nav.navbar 
+            a(href="") Home
+            a(href="") Add
+            a(href="") View
+            a(href="") Contact
+            a(href="") More
+        section.loginsection 
+            h3 Admin Login In
+            form(action="/" method="post")
+                input(type="text" placeholder="User id" name="userid" id="userid")
+                input(type="password" placeholder="Password" name="password" id="password") 
+                button Submit
